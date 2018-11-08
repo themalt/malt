@@ -1,7 +1,7 @@
 <template>
-    <div class="home">
+    <div class="page">
         <pre>
-            HOME
+            PAGE
             - prototyp + lista rzeczy które powinny być tu widoczne
         </pre>
     </div>
@@ -9,6 +9,10 @@
 
 <script>
 export default {
-    name: 'Home',
-};
+
+}
 </script>
+
+<style lang="scss" scoped>
+
+</style>
