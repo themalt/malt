@@ -9,8 +9,8 @@
 
 <script>
 export default {
-
-}
+    name: 'Site',
+};
 </script>
 
 <style lang="scss" scoped>
