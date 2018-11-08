@@ -8,6 +8,7 @@
             <b-nav-item to="/dashboard">Dashboard</b-nav-item>
             <b-nav-item to="/site">Site</b-nav-item>
             <b-nav-item to="/page">Page</b-nav-item>
+            <b-nav-item to="/trap">It's a Trap!</b-nav-item>
         </b-nav>
         <router-view />
     </div>
