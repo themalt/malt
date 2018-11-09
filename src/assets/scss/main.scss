@@ -1,4 +1,13 @@
 @import './_variables.scss';
+@import './_transitions.scss';
 
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    padding-top: 75px;
+}
