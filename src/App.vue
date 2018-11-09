@@ -5,7 +5,13 @@
             fluid
             tag="main"
         >
-            <router-view />
+            <transition
+                name="fade"
+                mode="out-in"
+                appear
+            >
+                <router-view :key="$route.fullPath" />
+            </transition>
         </b-container>
         <footer-bar />
     </div>
