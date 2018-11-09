@@ -1,9 +1,13 @@
 <template>
-    <div id="app">
+    <div
+        id="app"
+        class="page-wrapper"
+    >
         <top-bar />
         <b-container
             fluid
             tag="main"
+            class="page-content py-3"
         >
             <transition
                 name="fade"

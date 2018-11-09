@@ -5,9 +5,27 @@
 @import '~bootstrap-vue/dist/bootstrap-vue.css';
 
 html {
-    height: 100%;
+    height: 100vh;
 }
+
 body {
-    min-height: 100%;
-    padding-top: 75px;
+    min-height: 100vh;
+}
+
+.page-wrapper {
+    padding-top: 55px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header,
+.page-footer {
+    flex: 0 0 auto;
+}
+
+.page-content {
+    flex: 1 1 auto;
+    position: relative;
+    overflow-y: auto;
 }

@@ -1,7 +1,7 @@
 <template>
     <b-navbar
-        class="py-0"
-        fixed="bottom"
+        class="page-footer py-0"
+        sticky
         tag="footer"
         type="light"
         variant="light"

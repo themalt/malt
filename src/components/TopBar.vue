@@ -5,6 +5,7 @@
         toggleable="md"
         type="dark"
         variant="info"
+        class="page-header"
     >
         <b-navbar-brand to="/">MALT</b-navbar-brand>
         <b-navbar-toggle target="nav_collapse" />
