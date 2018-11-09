@@ -1,21 +1,17 @@
 <template>
     <div id="app">
-        <b-nav>
-            <b-nav-item
-                to="/"
-                active
-            >Home</b-nav-item>
-            <b-nav-item to="/dashboard">Dashboard</b-nav-item>
-            <b-nav-item to="/site">Site</b-nav-item>
-            <b-nav-item to="/page">Page</b-nav-item>
-            <b-nav-item to="/trap">It's a Trap!</b-nav-item>
-        </b-nav>
+        <top-bar />
         <router-view />
     </div>
 </template>
 
 <script>
+import TopBar from './components/TopBar.vue';
+
 export default {
+    components: {
+        TopBar,
+    },
 };
 </script>
 
