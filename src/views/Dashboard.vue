@@ -28,6 +28,7 @@
                 class="mb-2 project-list__single-project"
             >
                 <p class="card-text">
+                    <font-awesome-icon icon="coffee" />
                     Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
             </b-card>
