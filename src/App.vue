@@ -1,7 +1,12 @@
 <template>
     <div id="app">
         <top-bar />
-        <router-view />
+        <b-container
+            fluid
+            tag="main"
+        >
+            <router-view />
+        </b-container>
         <footer-bar />
     </div>
 </template>
