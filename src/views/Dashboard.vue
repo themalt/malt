@@ -20,59 +20,74 @@
         <div class="project-list">
             <b-card
                 title="PSCOM"
-                img-src="https://picsum.photos/600/300/?image=25"
+                img-src="https://picsum.photos/600/300/?image=940"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <p class="card-text">
-                    <font-awesome-icon icon="coffee" />
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
+                <div slot="header" class="project-summary">
+                    <div>Page status: <b-badge variant="success">94%</b-badge></div>
+                    <font-awesome-icon icon="trash-alt" />
+                </div>
+                <div class="project-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                </div>
             </b-card>
 
             <b-card
                 title="OGCOM"
-                img-src="https://picsum.photos/600/300/?image=25"
+                img-src="https://picsum.photos/600/300/?image=947"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
+                <div slot="header" class="project-summary">
+                    <div>Page status: <b-badge variant="success">87%</b-badge></div>
+                    <font-awesome-icon icon="trash-alt" />
+                </div>
+                <div class="project-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                </div>
             </b-card>
 
             <b-card
                 title="OCCA"
-                img-src="https://picsum.photos/600/300/?image=25"
+                img-src="https://picsum.photos/600/300/?image=908"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
+                <div slot="header" class="project-summary">
+                    <div>Page status: <b-badge variant="warning">67%</b-badge></div>
+                    <font-awesome-icon icon="trash-alt" />
+                </div>
+                <div class="project-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                </div>
             </b-card>
 
             <b-card
                 title="Test.com"
-                img-src="https://picsum.photos/600/300/?image=25"
+                img-src="https://picsum.photos/600/300/?image=864"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
+                <div slot="header" class="project-summary">
+                    <div>Page status: <b-badge variant="success">98%</b-badge></div>
+                    <font-awesome-icon icon="trash-alt" />
+                </div>
+                <div class="project-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                </div>
             </b-card>
         </div>
 
@@ -91,6 +106,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 100px;
 
         &__header {
             display: flex;
@@ -139,6 +155,12 @@ export default {
                 margin-bottom: 0;
                 margin-left: 10px;
             }
+        }
+
+        .project-summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 

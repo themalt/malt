@@ -1,14 +1,14 @@
 import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import App from './App.vue';
 import router from './router';
 import store from './store';
 
-library.add(faCoffee);
+library.add(faCoffee, faTrashAlt);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
