@@ -19,6 +19,7 @@ export default new Vuex.Store({
                     title: 'Vue JS',
                     desc: 'test desc',
                 },
+                pageStatus: 87,
             },
             {
                 id: 2,
@@ -27,6 +28,7 @@ export default new Vuex.Store({
                     title: 'React JS',
                     desc: 'test desc',
                 },
+                pageStatus: 84,
             },
         ],
         pages: [
@@ -46,6 +48,16 @@ export default new Vuex.Store({
                 url: 'https://reactjs.org/',
             },
         ],
+    },
+    getters: {
+        user: state => state.user,
+        sites: state => state.sites,
+        pages: siteId => (state) => {
+            const pagesList = state.pages
+                .filter(page => page.siteId === siteId);
+
+            return pagesList;
+        },
     },
     mutations: {
 
