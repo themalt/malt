@@ -2,7 +2,6 @@
     <div class="dashboard">
 
 
-
         <div class="dashboard__header">Validate your website:</div>
 
         <div class="validation-section">
@@ -27,12 +26,16 @@
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <div slot="header" class="project-summary">
+                <div
+                    slot="header"
+                    class="project-summary"
+                >
                     <div>Page status: <b-badge variant="success">94%</b-badge></div>
                     <font-awesome-icon icon="trash-alt" />
                 </div>
                 <div class="project-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    iaculis vel mi at laoreet.
                 </div>
             </b-card>
 
@@ -45,12 +48,16 @@
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <div slot="header" class="project-summary">
+                <div
+                    slot="header"
+                    class="project-summary"
+                >
                     <div>Page status: <b-badge variant="success">87%</b-badge></div>
                     <font-awesome-icon icon="trash-alt" />
                 </div>
                 <div class="project-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    iaculis vel mi at laoreet.
                 </div>
             </b-card>
 
@@ -63,12 +70,16 @@
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <div slot="header" class="project-summary">
+                <div
+                    slot="header"
+                    class="project-summary"
+                >
                     <div>Page status: <b-badge variant="warning">67%</b-badge></div>
                     <font-awesome-icon icon="trash-alt" />
                 </div>
                 <div class="project-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    iaculis vel mi at laoreet.
                 </div>
             </b-card>
 
@@ -81,12 +92,16 @@
                 style="max-width: 20rem;"
                 class="mb-2 project-list__single-project"
             >
-                <div slot="header" class="project-summary">
+                <div
+                    slot="header"
+                    class="project-summary"
+                >
                     <div>Page status: <b-badge variant="success">98%</b-badge></div>
                     <font-awesome-icon icon="trash-alt" />
                 </div>
                 <div class="project-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis vel mi at laoreet.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    iaculis vel mi at laoreet.
                 </div>
             </b-card>
         </div>
