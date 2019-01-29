@@ -51,13 +51,9 @@ export default new Vuex.Store({
     },
     getters: {
         user: state => state.user,
-        sites: state => state.sites,
-        pages: siteId => (state) => {
-            const pagesList = state.pages
-                .filter(page => page.siteId === siteId);
-
-            return pagesList;
-        },
+        sites: state => {
+            return state.sites;
+        }
     },
     mutations: {
 
