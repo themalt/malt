@@ -2,7 +2,7 @@ const path = require('path');
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter = new FileSync('db.json');
+const adapter = new FileSync( path.join( __dirname, '../db/db.json'));
 const db = low(adapter);
 
 const errors = [{
@@ -25,7 +25,7 @@ const pages = [{
     errors: null
 }, {
     id: '523513459u',
-    url: 'https://onlinegambling.com',
+    url: 'https://onlinegambling.com/casino',
     errors: null
 }, {
     id: '523513459u',
@@ -53,20 +53,15 @@ const websites = [{
     pages,
     errors
 }, {
-    id: '123456',
-    name: 'OGCOM',
+    id: '123457',
+    name: 'CORG',
     description: 'Consectetur sint esse dolore cillum sint magna ullamco commodo esse dolore elit.',
-    url: 'https://onlinegambling.com',
+    url: 'https://casino.org',
     pages,
-    errors
+    errors: null
 }];
 
-db.defaults({
-    websites: [{
-        id: '123456',
-        name: 'OGCOM',
-        description: 'Consectetur sint esse dolore cillum sint magna ullamco commodo esse dolore elit.',
-        url: 'https://onlinegambling.com',
+// Populate data - run it only once.
+// db.defaults({ websites }).write();
 
-    }]
-});
+module.exports = db;
