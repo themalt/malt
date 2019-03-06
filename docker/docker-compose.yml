@@ -1,0 +1,45 @@
+version: "3.7"
+
+networks:
+  net_malt:
+    driver: overlay
+
+volumes:
+  mysql_data:
+  node_modules:
+
+services:
+  malt_db:
+    image: mariadb
+    ports:
+      - "${DB_PORT}:3306"
+    tty: true
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=docker
+      - MYSQL_DATABASE=malt
+      - MYSQL_USER=malt_user
+      - MYSQL_PASSWORD=malt_pass
+    networks:
+      - net_malt
+
+  malt_web:
+    image: "roundrobintreegenerator/development-php7.1"
+    ports:
+      - "${WEB_PORT}:80"
+    volumes:
+      - ${ROOT_DIR}/docker/apache:/etc/apache2/sites-enabled/
+      - ${ROOT_DIR}:/var/www/malt
+      - node_modules:/var/www/malt/node_modules
+    tty: true
+    networks:
+      - net_malt
+    depends_on:
+      - "malt_db"
+
+  malt_redis:
+    image: "redis"
+    tty: true
+    networks:
+      - net_malt
