@@ -1,0 +1,98 @@
+{
+  "websites": [
+    {
+      "id": "123456",
+      "name": "OGCOM",
+      "description": "Consectetur sint esse dolore cillum sint magna ullamco commodo esse dolore elit.",
+      "url": "https://onlinegambling.com",
+      "pages": [
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com/casino",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        }
+      ],
+      "errors": [
+        {
+          "id": "3251238475892",
+          "type": "404",
+          "requestURL": "https://local.onlinegambling.com/images/free-games/titlescreens/15282468301264.png"
+        },
+        {
+          "id": "3251238475892",
+          "type": "404",
+          "requestURL": "https://local.onlinegambling.com/images/free-games/titlescreens/15282468300457.jpg"
+        },
+        {
+          "id": "3251238475892",
+          "type": "404",
+          "requestURL": "https://local.onlinegambling.com/images/free-games/titlescreens/15282468300457.jpg"
+        }
+      ]
+    },
+    {
+      "id": "123457",
+      "name": "CORG",
+      "description": "Consectetur sint esse dolore cillum sint magna ullamco commodo esse dolore elit.",
+      "url": "https://casino.org",
+      "pages": [
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com/casino",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        },
+        {
+          "id": "523513459u",
+          "url": "https://onlinegambling.com",
+          "errors": null
+        }
+      ],
+      "errors": null
+    }
+  ]
+}
