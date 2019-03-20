@@ -50,6 +50,7 @@ const websites = [{
     name: 'OGCOM',
     description: 'Consectetur sint esse dolore cillum sint magna ullamco commodo esse dolore elit.',
     url: 'https://onlinegambling.com',
+    thumb: '/:4000/static/ogcom.png',
     pages,
     errors
 }, {
@@ -57,6 +58,7 @@ const websites = [{
     name: 'CORG',
     description: 'Consectetur sint esse dolore cillum sint magna ullamco commodo esse dolore elit.',
     url: 'https://casino.org',
+    thumb: '/:4000/static/corg.png',
     pages,
     errors: null
 }];
